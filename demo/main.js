@@ -34,6 +34,7 @@ function createUser(name, score) {
 //  - increaseBalance
 //  - decreaseScore
 //  - decreaseBalance
+
 function createPaidUser(name, score, balance) {
   var obj = createUser(name, score);
   obj.balance = balance;
